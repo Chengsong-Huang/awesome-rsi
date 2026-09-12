@@ -92,7 +92,6 @@ Methods that improve model weights or training behavior through self-generated f
 ### Self-Training & Self-Reward
 
 - [EvoLM: Self-Evolving Language Models through Co-Evolved Discriminative Rubrics](https://arxiv.org/abs/2605.03871) - Alternately trains one model to generate discriminative rubrics and improve its policy from rubric-conditioned rewards without human annotations or external reward models. (arXiv 2026)
-- [Self-Rewarding Vision-Language Model via Reasoning Decomposition](https://arxiv.org/abs/2508.19652) - Trains a vision-language model with rewards computed by the same model from its own self-contained visual descriptions, without an external visual reward model. (arXiv 2025)
 - [RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback](https://arxiv.org/abs/2309.00267) - Studies reinforcement learning from AI-generated preferences as a scalable alternative to direct human feedback. (ICML 2024)
 - [Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335) - Iteratively improves one language model through self-play preference learning without additional human annotations. (ICML 2024)
 - [Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020) - Trains language models to generate and judge their own instruction-following data over repeated alignment rounds. (ICML 2024)
@@ -174,7 +173,6 @@ General extensibility alone is insufficient. An RSI substrate should expose agen
 
 Primarily bounded self-refinement and verification methods that serve as building blocks for persistent self-improving systems.
 
-- [Efficient Test-Time Scaling via Self-Calibration](https://arxiv.org/abs/2503.00031) - Distills self-consistency-derived confidence back into the model so that one forward pass yields calibrated confidence for adaptive test-time compute. (ICLR 2026)
 - [Chain-of-Verification Reduces Hallucination in Large Language Models](https://arxiv.org/abs/2309.11495) - Plans and answers independent verification questions before producing a revised response. (Findings of ACL 2024)
 - [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://arxiv.org/abs/2305.11738) - Uses external tools to validate an output and converts the resulting evidence into iterative corrections. (ICLR 2024)
 - [Large Language Models Cannot Self-Correct Reasoning Yet](https://arxiv.org/abs/2310.01798) - Shows that intrinsic self-correction can degrade reasoning without reliable external feedback and defines an important negative baseline. (ICLR 2024)
@@ -243,7 +241,6 @@ Mixes current-run repair loops with methods whose learned improvements persist i
 Systems that automate parts of AI research and development, including experimentation, post-training, algorithm discovery, and the improvement of other AI systems.
 
 - [AutoResearch: Insight In, Hallucination Out](https://arxiv.org/abs/2608.17906) - Connects grounded idea generation with coordinated execution agents that implement, diagnose, and independently review experiments before accepting research conclusions. (arXiv 2026)
-- [FARS: A Fully Automated Research System Deployed at Scale](https://arxiv.org/abs/2606.31651) - Runs ideation, planning, experimentation, and writing with stage-specific agents in a shared workspace, producing 166 auditable AI/ML papers in a public deployment. (arXiv 2026)
 - [Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering](https://arxiv.org/abs/2607.28568) - Connects execution-grounded operator training with long-horizon evolution in the open OpenMLE stack, using machine-learning engineering as an AI4AI testbed for RSI. (arXiv 2026)
 - [FT-Dojo: Towards Autonomous LLM Fine-Tuning with Language Agents](https://arxiv.org/abs/2603.01712) - Turns data collection, training, evaluation, diagnosis, and strategy revision into an executable environment for autonomous fine-tuning agents. (arXiv 2026)
 - [LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling](https://arxiv.org/abs/2605.08083) - Lets an LLM agent discover test-time scaling controllers for other LLMs inside a cheap execution-trace environment, with discovered strategies transferring across benchmarks and model scales. (arXiv 2026)
